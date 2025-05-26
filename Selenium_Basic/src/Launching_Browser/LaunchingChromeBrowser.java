@@ -8,6 +8,6 @@ public class LaunchingChromeBrowser {
 		driver.get("https://www.wikipedia.org/");
 		driver.manage().window().maximize();
 		
-		//driver.close();
+		driver.close();
 	}
 }

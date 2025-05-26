@@ -2,224 +2,40 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-01T09:53:09 IST" name="Default suite" finished-at="2025-05-01T09:53:25 IST" duration-ms="15055">
+  <suite started-at="2025-05-26T13:54:19 IST" name="Default suite" finished-at="2025-05-26T13:54:19 IST" duration-ms="101">
     <groups>
+      <group name="smoke">
+        <method signature="GoupTestInTestng.smoke()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" name="smoke" class="Grouping.GoupTestInTestng"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="GoupTestInTestng.regression()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" name="regression" class="Grouping.GoupTestInTestng"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="GoupTestInTestng.sanity()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" name="sanity" class="Grouping.GoupTestInTestng"/>
+      </group> <!-- sanity -->
+      <group name="endToEnd">
+        <method signature="GoupTestInTestng.endToEnd()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" name="endToEnd" class="Grouping.GoupTestInTestng"/>
+      </group> <!-- endToEnd -->
     </groups>
-    <test started-at="2025-05-01T09:53:09 IST" name="Default test" finished-at="2025-05-01T09:53:25 IST" duration-ms="15055">
-      <class name="DataProvider.Exmple1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:DataProvider.Exmple1@515aebb0]" started-at="2025-05-01T09:53:09 IST" name="setUp" finished-at="2025-05-01T09:53:19 IST" duration-ms="9192" status="PASS">
+    <test started-at="2025-05-26T13:54:19 IST" name="Default test" finished-at="2025-05-26T13:54:19 IST" duration-ms="101">
+      <class name="Grouping.GoupTestInTestng">
+        <test-method signature="endToEnd()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" started-at="2025-05-26T13:54:19 IST" name="endToEnd" finished-at="2025-05-26T13:54:19 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createFBAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider.Exmple1@515aebb0]" started-at="2025-05-01T09:53:19 IST" name="createFBAccount" data-provider="fbSignUpData" finished-at="2025-05-01T09:53:20 IST" duration-ms="1366" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ram]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patil]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[17]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Apr]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2017]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[ram@gmail.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[rampatil@123$]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- endToEnd -->
+        <test-method signature="regression()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" started-at="2025-05-26T13:54:19 IST" name="regression" finished-at="2025-05-26T13:54:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createFBAccount -->
-        <test-method signature="createFBAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider.Exmple1@515aebb0]" started-at="2025-05-01T09:53:20 IST" name="createFBAccount" data-provider="fbSignUpData" finished-at="2025-05-01T09:53:21 IST" duration-ms="1281" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bhavana]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ahire]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Jun]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2001]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Female]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[bhavana@gmail.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[bhavanaahire@123$]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- regression -->
+        <test-method signature="sanity()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" started-at="2025-05-26T13:54:19 IST" name="sanity" finished-at="2025-05-26T13:54:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createFBAccount -->
-        <test-method signature="createFBAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider.Exmple1@515aebb0]" started-at="2025-05-01T09:53:21 IST" name="createFBAccount" data-provider="fbSignUpData" finished-at="2025-05-01T09:53:23 IST" duration-ms="1301" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lipakshi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ahire]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Jan]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2004]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Custom]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[lipakshi@gmail.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[lipakshiahire@123$]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[She: \"Wish her a happy birthday!\"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- sanity -->
+        <test-method signature="smoke()[pri:0, instance:Grouping.GoupTestInTestng@6973b51b]" started-at="2025-05-26T13:54:19 IST" name="smoke" finished-at="2025-05-26T13:54:19 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createFBAccount -->
-        <test-method signature="createFBAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataProvider.Exmple1@515aebb0]" started-at="2025-05-01T09:53:23 IST" name="createFBAccount" data-provider="fbSignUpData" finished-at="2025-05-01T09:53:24 IST" duration-ms="1537" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ayush]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patil]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Oct]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2007]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Custom]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[ayush@gmail.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[ayush@123$]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[They: "Wish them a happy birthday!"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createFBAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:DataProvider.Exmple1@515aebb0]" started-at="2025-05-01T09:53:24 IST" name="tearDown" finished-at="2025-05-01T09:53:25 IST" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- DataProvider.Exmple1 -->
+        </test-method> <!-- smoke -->
+      </class> <!-- Grouping.GoupTestInTestng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

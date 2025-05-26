@@ -26,16 +26,16 @@ package DataProvider;
 	            driver.manage().window().maximize();
 	            driver.get("https://www.facebook.com/");
 
-	            // Click "Create New Account" button
+	         
 	            WebElement createAccountBtn = driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']"));
 	            createAccountBtn.click();
-	            Thread.sleep(2000); // Wait for form to open
+	            Thread.sleep(2000); 
 
 	            // Fill the form
 	            driver.findElement(By.name("firstname")).sendKeys(firstName);
 	            driver.findElement(By.name("lastname")).sendKeys(lastName);
 	            driver.findElement(By.name("reg_email__")).sendKeys(email);
-	            Thread.sleep(1000); // Sometimes need to wait for re-enter email field
+	            Thread.sleep(1000); 
 	            driver.findElement(By.name("reg_email_confirmation__")).sendKeys(email);
 	            driver.findElement(By.name("reg_passwd__")).sendKeys(password);
 
@@ -53,11 +53,8 @@ package DataProvider;
 	                driver.findElement(By.xpath("//input[@value='-1']")).click(); // Custom gender
 	            }
 
-	            Thread.sleep(3000); // just to observe before closing
-
-	            // (Optional) Click on "Sign Up" button
-	            // driver.findElement(By.name("websubmit")).click();
-
+	            Thread.sleep(3000); 
+	            
 	        } catch (Exception e) {
 	            e.printStackTrace();
 	        } finally {
